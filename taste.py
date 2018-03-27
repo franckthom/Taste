@@ -5,4 +5,4 @@ class MyIniStorage(IniStorage):
         "Configure your custom response URL."
         return self.get_base_url() + '/oauth/success/'
 
-storage = MyIniStorage('/config.ini')
+storage = MyIniStorage('/taste.ini')
